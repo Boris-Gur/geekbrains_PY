@@ -1,0 +1,5 @@
+seconds = int(input('Please enter the number of seconds:'))
+out_seconds = int(seconds % 60)
+out_minutes = int((seconds / 60) % 60)
+out_hours = int(seconds / 60 / 60)
+print(f'Your time is {out_hours}/{out_minutes}/{out_seconds}')
