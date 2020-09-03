@@ -1,0 +1,7 @@
+num_int = int(input('Please enter the number:'))
+print('{}' .format(num_int))
+num_float = float(input('Please enter the number:'))
+print('{}' .format(num_float))
+name = input('Please enter your name:')
+surname = input('Please enter your surname:')
+print('Hello, %10s %10s!' % (name,surname))
